@@ -1,4 +1,4 @@
-﻿l_korean:
+l_korean:
  HTAB: "$TAB$#b -#!$TAB$"
  TOOLTIP_DELIMITER_LONG: "@divider_start!@divider_mid!@divider_mid!@divider_mid!@divider_mid!@divider_mid!@divider_mid!@divider_mid!@divider_end!"
 
@@ -23,5 +23,5 @@
  DA_GDP_OTHER_10: "[Country.GetName]는 [GetPlayer.GetName]에 소유한 [concept_building_level]가 #b 없습니다#!"
  DA_GDP_OTHER_11: "[Country.GetName]는 [GetPlayer.GetName]에 대해 [GetPlayer.GetInvestmentLevelsInCountry(Country.Self)|v]개의 [Concept('concept_building_level', '$concept_building_levels$')]를 소유하며, 이는 [TARGET_COUNTRY.GetAdjective] $GDP_SHORT$의 [TARGET_COUNTRY.GetInvestmentGdpFractionInCountry(COUNTRY.Self)|%2v] 에 맞먹습니다"
 
- ATTITUDE_DETAILS: "[COUNTRY.GetAttitudeTowards(TARGET_COUNTRY.Self).GetReasonsDesc]\n$TOOLTIP_DELIMITER$\n[TARGET_COUNTRY.GetName]는 [COUNTRY.GetName]에 대해 [COUNTRY.GetInvestmentLevelsInCountry(TARGET_COUNTRY.Self)|v]개의 [Concept('concept_building_level', '$concept_building_levels$')] 를 소유하며, 이는 [COUNTRY.GetAdjective] $GDP_SHORT$의 [COUNTRY.GetInvestmentGdpFractionInCountry(TARGET_COUNTRY.Self)|%2v]에 맞먹습니다 \n[COUNTRY.GetAttitudeTowards(TARGET_COUNTRY.Self).GetReasonsDesc]\n$TOOLTIP_DELIMITER$\n[COUNTRY.GetName]는 [TARGET_COUNTRY.GetName]에 대해 [TARGET_COUNTRY.GetInvestmentLevelsInCountry(COUNTRY.Self)|v]개의 [Concept('concept_building_level', '$concept_building_levels$')] 를 소유하며, 이는 [TARGET_COUNTRY.GetAdjective] $GDP_SHORT$의 [TARGET_COUNTRY.GetInvestmentGdpFractionInCountry(COUNTRY.Self)|%2v]에 맞먹습니다"
- ai_attitude_human_tooltip: "#header $ai_attitude_human$#!\n$ai_attitude_human_desc$\n$TOOLTIP_DELIMITER$\n$ATTITUDE_DETAILS$"
+ ATTITUDE_DETAILS: "[COUNTRY.GetAttitudeTowards(TARGET_COUNTRY.Self).GetReasonsDesc]\n$TOOLTIP_DELIMITER$\n[TARGET_COUNTRY.GetName] has [COUNTRY.GetInvestmentLevelsInCountry(TARGET_COUNTRY.Self)|v] [Concept('concept_building_level', '$concept_building_levels$')] in [COUNTRY.GetName], amount to [COUNTRY.GetInvestmentGdpFractionInCountry(TARGET_COUNTRY.Self)|%2v] of [COUNTRY.GetAdjective] $GDP_SHORT$\n[COUNTRY.GetName] has [TARGET_COUNTRY.GetInvestmentLevelsInCountry(COUNTRY.Self)|v] [Concept('concept_building_level', '$concept_building_levels$')] in [TARGET_COUNTRY.GetName], amount to [TARGET_COUNTRY.GetInvestmentGdpFractionInCountry(COUNTRY.Self)|%2v] of [TARGET_COUNTRY.GetAdjective] $GDP_SHORT$"
+ ai_attitude_human_tooltip: "#header $ai_attitude_human$#!\n$ai_attitude_human_desc$\n$TOOLTIP_DELIMITER$\n$ATTITUDE_
